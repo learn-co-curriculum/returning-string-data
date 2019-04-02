@@ -93,7 +93,7 @@ pass along to our route.
 
 ```erb
 # _post.html.erb
-<h1><%= post.id %>: <%= post.title %></h2>
+<h1><%= post.id %>: <%= post.title %></h1>
 <div><%= truncate post.description %></div>
 
 <button class="js-more" data-id="<%= post.id %>">More...</button>
